@@ -1,0 +1,39 @@
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  .icons{
+    display: flex;
+    gap: 2rem;
+  }
+  .logo{
+    a{
+      h2{
+        font-size: 25px;
+        color: black;
+        span{
+          color: red;
+        }
+      }
+    }
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    li{
+      a{
+        font-size: 16px;
+        color: black;
+      }
+    }
+  }
+}
